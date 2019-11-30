@@ -1,7 +1,17 @@
 html {
-  font-family: Georgia, sans-serif;
+  font-family: Verdana, serif;
 }
 
 h1 {
-  font-family: Verdana, serif;
+  font-family: Georgia, sans-serif;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    background-color: #bea586;
+    background-image: url("../images/sloth-bg.svg");
+    background-size: 42px auto;
+  }
+
 }
